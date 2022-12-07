@@ -26,7 +26,7 @@ A site for the fictive Bergen Science Museum, focused on making science accessib
 1. Clone the repo
 
 ```
-git clone git@github.com:bittenhelen83/Re-Cycle.git
+git clone git@github.com:bittenhelen83/Bergen_Science_Museum.git
 ```
 
 2. Install the dependencies
