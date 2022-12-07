@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+ }
+
+nav {
+   float: right;
+   padding-top: 30px;
+   padding-right: 15px;
+ }
+
+li {
+  font-weight: bold;
+  display: inline;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  color: #F2CF1D;
+}
+.largeheading {
+  font-size: 50px;
+}
+
+.info {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.footer {
+  width:100%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 15px;
+  clear: both;
+  height: 150px;
+}
+
+.linkinfooter {
+  color: white;
+}
+
+.active {
+ text-decoration: underline;
+}
+
+.topimage {
+  width: 100%;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+
+.largetext {
+  font-size: 17px;
+}
+
+@media only screen  and (min-width: 300px) and (max-width: 767px) {
+  .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .column {
+    width: 100%
+    padding: 25px;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .column {
+    float: left;
+    width: 100%;
+  }
+  .thumbnail {
+    width: 100%;
+    float: left;
+    margin: 15px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  .column {
+    width: 20%;
+    padding: 15px;
+  }
+}
